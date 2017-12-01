@@ -16,3 +16,7 @@
 ### Generate Key
 
 `php artisan key:generate`
+
+### Serve Laravel App
+
+`php artisan serve`
