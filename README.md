@@ -27,3 +27,6 @@ composer create-project laravel/laravel myapp
 
 `php artisan make:model Task --migration --controller --resource`
 
+### List all available routes
+
+`php artisan route:list`
