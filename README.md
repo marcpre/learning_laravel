@@ -10,8 +10,10 @@
 
 ### Create new laravel project
 
-`composer global require "laravel/installer=~1.1"`
-`composer create-project laravel/laravel myapp`
+```
+composer global require "laravel/installer=~1.1"
+composer create-project laravel/laravel myapp
+```
 
 ### Generate Key
 
@@ -20,3 +22,8 @@
 ### Serve Laravel App
 
 `php artisan serve`
+
+### Create Model/Controller/Migrations/Resources
+
+`php artisan make:model Task --migration --controller --resource`
+
