@@ -30,3 +30,7 @@ composer create-project laravel/laravel myapp
 ### List all available routes
 
 `php artisan route:list`
+
+### Migrate Database
+
+`php artisan migrate`
