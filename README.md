@@ -33,4 +33,8 @@ composer create-project laravel/laravel myapp
 
 ### Migrate Database
 
+Migrate
 `php artisan migrate`
+
+Drop Tables and Migrate again
+`php artisan migrate:fresh`
