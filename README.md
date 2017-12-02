@@ -38,3 +38,8 @@ Migrate
 
 Drop Tables and Migrate again
 `php artisan migrate:fresh`
+
+### Seed Database
+
+Seed database
+`php artisan make:seeder TaskTableSeeder`
