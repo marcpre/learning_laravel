@@ -34,23 +34,29 @@ composer create-project laravel/laravel myapp
 ### Migrate Database
 
 Migrate
+
 `php artisan migrate`
 
 Drop Tables and Migrate again
+
 `php artisan migrate:fresh`
 
 ### Create Seed
 
 Create Seed
+
 `php artisan make:seeder TaskTableSeeder`
 
 Seed database (existing data is NOT deleted)
+
 `php artisan db:seed`
 
 Seed database and re-run migrations
+
 `php artisan migrate:refresh --seed`
 
 ### Authentication
 
 Scaffold authentication
+
 `php artisan make:auth`
