@@ -49,3 +49,8 @@ Seed database (existing data is NOT deleted)
 
 Seed database and re-run migrations
 `php artisan migrate:refresh --seed`
+
+### Authentication
+
+Scaffold authentication
+`php artisan make:auth`
