@@ -44,5 +44,8 @@ Drop Tables and Migrate again
 Create Seed
 `php artisan make:seeder TaskTableSeeder`
 
-Seed database
+Seed database (existing data is NOT deleted)
 `php artisan db:seed`
+
+Seed database and re-run migrations
+`php artisan migrate:refresh --seed`
