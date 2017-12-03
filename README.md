@@ -64,3 +64,9 @@ Seed database and re-run migrations
 Scaffold authentication
 
 `php artisan make:auth`
+
+### Middleware
+
+Create Middleware
+
+`php artisan make:middleware CheckRole`
