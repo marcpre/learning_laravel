@@ -41,6 +41,10 @@ Drop Tables and Migrate again
 
 `php artisan migrate:fresh`
 
+Create Migrations
+
+`php artisan make:migration 'create_user_role_table'`
+
 ### Create Seed
 
 Create Seed
