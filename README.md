@@ -70,3 +70,9 @@ Scaffold authentication
 Create Middleware
 
 `php artisan make:middleware CheckRole`
+
+### Controller
+
+Create controller with resources (CRUD)
+
+`php artisan make:controller AdminController --resource`
