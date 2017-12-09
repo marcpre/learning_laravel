@@ -89,7 +89,7 @@ Create controller with resources (CRUD)
  protected $commands = [
 
     //This is the line of code added, at the end, we the have class name of DeleteInActiveUsers.php inside app\console\commands
-        '\App\Console\Commands\TestCommand',
+        Commands\CoinMarketCapOverview::class,
     ];
 
     /**
