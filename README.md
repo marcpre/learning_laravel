@@ -76,3 +76,37 @@ Create Middleware
 Create controller with resources (CRUD)
 
 `php artisan make:controller AdminController --resource`
+
+## Create Laravel Command
+
+1. Make a command
+
+`php artisan make:command TestCommand`
+
+2. Add the following to the `kernel.php` file:
+
+```
+ protected $commands = [
+
+    //This is the line of code added, at the end, we the have class name of DeleteInActiveUsers.php inside app\console\commands
+        '\App\Console\Commands\TestCommand',
+    ];
+
+    /**
+     * Define the application's command schedule.
+     *
+     * @param  \Illuminate\Console\Scheduling\Schedule  $schedule
+     * @return void
+     */
+    protected function schedule(Schedule $schedule)
+    {
+       //insert name and signature of you command and define the time of excusion
+        $schedule->command('TestCommand:deleteusers')
+                 ->everyMinute();
+    }
+```
+3. `php artisan list` should show the command
+
+DONE.
+
+
