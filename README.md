@@ -15,6 +15,10 @@ composer global require "laravel/installer=~1.1"
 composer create-project laravel/laravel myapp
 ```
 
+### Add Provider/Aliases
+
+In folder `/config/app.php` add the package provider and aliases.
+
 ### Generate Key
 
 `php artisan key:generate`
