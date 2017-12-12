@@ -15,6 +15,17 @@ composer global require "laravel/installer=~1.1"
 composer create-project laravel/laravel myapp
 ```
 
+### PHP Shell
+
+`php artisan tinker`
+
+For example, seed user table:
+
+```
+$ php artisan tinker
+>>> factory(App\User::class, 100)->create();
+```
+
 ### Add Provider/Aliases
 
 In folder `/config/app.php` add the package provider and aliases.
