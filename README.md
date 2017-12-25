@@ -60,6 +60,10 @@ Create Migrations
 
 `php artisan make:migration 'create_user_role_table'`
 
+Migrate specific migration
+
+`php artisan migrate --path=/database/migrations/specificMigration/`
+
 ### Create Seed
 
 Create Seed
