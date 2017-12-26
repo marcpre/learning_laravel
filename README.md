@@ -78,6 +78,10 @@ Seed database and re-run migrations
 
 `php artisan migrate:refresh --seed`
 
+Seed specific seeder file
+
+`php artisan db:seed --class=UsersTableSeeder`
+
 ### Authentication
 
 Scaffold authentication
