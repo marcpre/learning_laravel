@@ -100,6 +100,12 @@ Create controller with resources (CRUD)
 
 `php artisan make:controller AdminController --resource`
 
+### Log
+
+Clear log file
+
+`php artisane log:clear`
+
 ## Create Laravel Command
 
 1. Make a command
