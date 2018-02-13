@@ -142,4 +142,8 @@ Swaps out the Vue scaffolding with React scaffolding.
 
 [Medium Taylor Otwell](https://medium.com/@taylorotwell/laravel-frontend-presets-eca312958def)
 
+### Remove all scaffolding
 
+`php artisan preset none`
+
+Removes all scaffolding.
