@@ -132,4 +132,14 @@ Create controller with resources (CRUD)
 
 DONE.
 
+## Scaffolding
+
+### Change to react scaffolding
+
+`php artisan preset react`
+
+Swaps out the Vue scaffolding with React scaffolding.
+
+[Medium Taylor Otwell](https://medium.com/@taylorotwell/laravel-frontend-presets-eca312958def)
+
 
