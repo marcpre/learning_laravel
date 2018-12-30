@@ -46,6 +46,10 @@ In folder `/config/app.php` add the package provider and aliases.
 
 `php artisan route:list`
 
+### Clear views
+
+`php artisan view:clear`
+
 ### Migrate Database
 
 Migrate
