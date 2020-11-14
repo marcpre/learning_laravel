@@ -151,3 +151,10 @@ Swaps out the Vue scaffolding with React scaffolding.
 `php artisan preset none`
 
 Removes all scaffolding.
+
+## Exceptions
+
+Throw exception in code:
+
+`throw new \ErrorException('Error found');`
+
