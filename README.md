@@ -68,6 +68,28 @@ Migrate specific migration
 
 `php artisan migrate --path=/database/migrations/specificMigration/`
 
+Add fields to table
+
+`php artisan make:migration add_publishers_id_to_collections --table="collections"`
+
+```
+public function up()
+    {
+        Schema::table('images', function (Blueprint $table) {
+            $table->integer('publishers_id')->nullable($value = true);
+
+        });
+    }
+
+    public function down()
+    {
+        Schema::table('images', function (Blueprint $table) {
+            $table->dropColumn('publishers_id');
+
+        });
+    }
+```
+
 ### Create Seed
 
 Create Seed
